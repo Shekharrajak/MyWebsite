@@ -1,6 +1,5 @@
 MyWebsite
 =========
-
-A personal website ,totally created by me :)
+ personal website , created by me :)
 
 Creating the site pages ,updating almost every day..
