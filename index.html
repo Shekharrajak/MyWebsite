@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Shekhar Prasad Rajak.</title>
+        <title>~Shekhar Prasad Rajak~</title>
         <meta name="description" content=".">
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +33,112 @@
   		
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
+    <style type="text/css">
+
+        .image-effect-fall-back{
+            width: 500px;
+            height: 300px;
+            position: relative;
+            margin: 0 auto;
+            -webkit-perspective: 800px;
+            perspective: 800px;
+        }
+
+
+        .image-effect-fall-back .image-layer{
+            position: absolute;
+            top:0;
+            left: 0;
+            height: 300px;
+            -webkit-transition: 0.6s;
+            transition: 0.6s;
+            z-index: 1;
+        }
+
+        .image-effect-fall-back:hover .image-layer{
+            -webkit-transform: rotateX(70deg);
+            transform: rotateX(70deg);
+            overflow: visible;
+        }
+
+        .image-effect-fall-back .image-layer img{
+            height: 100%;
+        }
+
+        .image-effect-fall-back .image-layer:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+            -webkit-transform: rotateX(114deg) translateZ(-26px)  translateY(110px) scale(0.75);
+            transform: rotateX(114deg) translateZ(-26px)  translateY(110px) scale(0.75);
+            -webkit-transform-origin: bottom;
+            -ms-transform-origin: bottom;
+            transform-origin: bottom;
+        }
+
+        .image-effect-fall-back:hover .image-layer:before {
+            opacity: 0.3;
+        }
+
+
+        .image-effect-fall-back .share-layer{
+            position: absolute;
+            bottom: 100px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            opacity: 0;
+            z-index: 10;
+            
+            -webkit-transition: 0.6s;
+            transition: 0.6s;
+            
+            -webkit-transform: rotateX(70deg);
+            transform: rotateX(70deg);
+        }
+
+        .image-effect-fall-back:hover .share-layer {
+            opacity: 1;
+
+            -webkit-transform: rotateX(0deg) translateY(-70px);
+            transform: rotateX(0deg) translateY(-70px);
+        }
+
+
+        .share-button{
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 20px;
+            width: 200px;
+            border-radius: 5px;
+            margin: 25px 10px;
+        }
+
+        .share-via-facebook{
+            background-color:#3b5998;
+        }
+
+        .share-via-twitter{
+            background-color:#00aced;
+        }
+
+        .share-via-google{
+            background-color:#d34836;
+        }
+
+
+
+    </style>
     <body>
     
         <canvas id="bg" class="page-bg"></canvas>
@@ -48,22 +154,38 @@
                     </a><a class="icon of-mail" href="mailto:shekharstudy@ymail.com"></a>
                    
                	
-                    <p><button id="trigger-overlay" type="button">Welcome</button></p>
+                  
                 
                     
                 </div>
                   
+            <br><br><br>
+
+    <div class="image-effect-fall-back">
+
+        <div class="share-layer">
+
+            <a href="#"  class="share-button share-via-facebook">
+                <i class="fa fa-facebook"></i>
+               
+                 <p><button id="trigger-overlay" type="button">Welcome</button></p>
+            </a>
+
+             
+
+        </div>
+
+        <div class="image-layer">
+            <img src="img/q.jpg" width="500" alt="img/q1.jpg ">
+        </div>
+
+    </div>
+
+
             </div>
         
         
-        
-         <div id="gallery">
-  <img alt="" src="img/IMG-20141109-WA0031 - Copy - Copy.jpg"/>
-  <img alt="" src="img/P_20141018_161640.jpg" />
-  
- 
-	</div>
-
+      
 
         <!-- Google Analytics -->
 
@@ -108,16 +230,15 @@
             <button type="button" class="overlay-close">Close</button>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a> </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Academic Carrer</a> </li>
-                    <li><a href="#">Projects and Ideas </a></li>
-                    <li><a href="#">Achievements</a> </li>
+                    <li><a href="http://shekharrajak.github.io/MyWebsite/">Home</a> </li>
+                    <li><a href="#">About me</a></li>
+                    <a href="next_page.html"> Next page </a> 
+                    
                     
                 </ul>
             </nav>
         </div>
-	 </div>
+</div>	 
         <script src="js/classie.js"></script>
         <script src="js/demo10.js"></script>
 	
@@ -128,7 +249,10 @@
         <script src="js/background.js"></script>
         <script src="js/main.js"></script>
         
-	</div>
+
+<br>
+
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
