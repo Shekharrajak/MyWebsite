@@ -811,7 +811,7 @@ cd-img-replace {
   white-space: nowrap;
 }
 .scroll{
-	-webkit-animation: myOrbit 1s linear infinite; /* Chrome, Safari 5 */
+	-webkit-animation: myOrbit 0.5s linear infinite; /* Chrome, Safari 5 */
        -moz-animation: myOrbit 2s linear infinite; /* Firefox 5-15 */
          -o-animation: myOrbit 2s linear infinite; /* Opera 12+ */
             animation: myOrbit 2s linear infinite; /* Chrome, Firefox 16+, 
@@ -822,7 +822,7 @@ IE 10+, Safari 5 */
 }
 @-webkit-keyframes myOrbit {
     from { -webkit-transform: rotate(0deg) translatey(-20px) rotate(0deg); }
-    to   { -webkit-transform: rotate(0deg) translatey(+30px) rotate(-0deg); }
+    to   { -webkit-transform: rotate(0deg) translatey(+30px) rotate(0deg); }
 }
 
 @-moz-keyframes myOrbit {
