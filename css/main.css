@@ -789,7 +789,7 @@ figure.effect-apollo:hover p {
 
 .cd-scroll-down {
   position:fixed;
-  left: 35%;
+  left: 30%;
   right: auto;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
