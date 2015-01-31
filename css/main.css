@@ -822,7 +822,7 @@ IE 10+, Safari 5 */
 }
 @-webkit-keyframes myOrbit {
     from { -webkit-transform: rotate(0deg) translatey(-20px) rotate(0deg); }
-    to   { -webkit-transform: rotate(0deg) translatey(+20px) rotate(-0deg); }
+    to   { -webkit-transform: rotate(0deg) translatey(+30px) rotate(-0deg); }
 }
 
 @-moz-keyframes myOrbit {
