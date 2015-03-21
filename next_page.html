@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>~Shekhar Prasad Rajak~</title>
+        <meta name="description" content=".Shekhar Prasad Rajak , Personal Website">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    	<link rel="stylesheet" href="css/resetIntern.css"> <!-- for intern page CSS reset -->
+	<link rel="stylesheet" href="css/styleintern.css"> <!-- for intern pageResource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <script src="js/jquery.smooth-scroll.js"></script>
+  	 <link rel="shortcut icon" href="img/spr.png">
+  	 <link rel="stylesheet" type="text/css" href="css/set2.css" />
+  	 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<title>~Shekhar Prasad Rajak ~</title>
+	<script type="text/javascript">
+$(window).load(function() {
+    $(window).fadeOut("slow");
+})
+</script>
+</head>
+<style type="text/css">
+
+ul {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+   /* *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ul ul {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+/* Rectangle list */
+.rectangle-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;   
+}
+
+.rectangle-list a:hover{
+    background: #eee;
+}   
+
+.rectangle-list a:before{
+   content: counter(li);
+   counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #fa8072;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rectangle-list a:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.rectangle-list a:hover:after{
+    left: -.5em;
+    border-left-color: #fa8072;             
+}
+
+/* tab */
+#tabs {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tabs li {
+  float: left;
+  margin: 0 .5em 0 0;
+}
+
+#tabs a {
+  position: relative;
+  background: #ddd;
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  padding: .7em 3.5em;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  border-radius: 5px 0 0 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after {
+  background: #fff;
+}
+
+#tabs a:focus {
+  outline: 0;
+}
+
+#tabs a::after {
+  content:'';
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  right: -.5em;  
+  bottom: 0;
+  width: 1em;
+  background: #ddd;
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  transform: skew(10deg);
+  border-radius: 0 5px 0 0;  
+}
+
+#tabs #current a,
+#tabs #current a::after {
+  background: #fff;
+  z-index: 3;
+}
+
+#content {
+  background: #fff;
+  padding: 2em;
+  height: 220px;
+  position: relative;
+  z-index: 2; 
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+}
+</style>
+<body>
+	<header class="cd-header">
+		<div id="cd-logo"><a href="#0"><img src="img/spr.png" alt="Logo"></a></div>
+
+		<nav class="cd-main-nav">
+			<ul>
+				<!-- inser more links here -->
+				<li><a href="http://shekharrajak.github.io/MyWebsite/">Back</a></li>
+				<li><a href="#Achievements">Achievements</a></li>
+				<li><a href="#Projects and Ideas">Projects&Ideas</a></li>
+                                <li><a href="#Internship & Training Programs">Internship&Training Programs</a></li>
+				<li><a href="#Extra Curriculum Activities">ECA</a></li>
+				
+                
+				<li><a href="contact/index.html">Contact Shekhar~</a></li>
+			</ul>
+		</nav> <!-- cd-main-nav -->
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-fixed-bg cd-bg-1">
+			<h1><strong> Achievements </strong></h1>
+		</div> <!-- cd-fixed-bg -->
+     <div id ="Achievements"
+		<div class="cd-scrolling-bg cd-color-2">
+			<div class="cd-container">
+				<p>
+					<ul class="rectangle-list ">
+    <li><a href="#">Among Top 2 students from Class 1 to Class 12.</a>
+    	<ul>
+            <li><a href="#">Class 5th  : 97%</a></li>
+            <li><a href="#">Class 8th  : 93%</a></li>
+            <li><a href="#">Class 10th : 94%</a></li>
+            <li><a href="#">Class 12th : 96%</a></li>
+        </ul>
+
+    </li>
+    <li><a href="#"> CGBSE  (Chhattisgarh Board of Secondary Education ) Topper with 96% . </a>
+    		<ul>
+            <li><a href="#"> Related Links : </a>
+          <ul>
+            <li><a href="http://www.raipurnews.com/top-rankers-12th-class-cgbse-merit-list">Raipur News </a></li>
+            <li><a href="http://www.thehitavada.com/news-details/governor-dutt-honours-meritorious-students">The Hitavada</a></li>
+           
+        </ul>
+            </li>
+            <li><a href="http://www.youtube.com/watch?v=P9av1rsaxRo&feature=youtu.be"> Related Video</a></li>
+          
+        </ul>
+    </li>
+    <li><a href="#"> Two Gold medals : </a>
+        <ul>
+            <li><a href="#">For Board Topper .</a></li>
+            <li><a href="#">For Stream (Mathematics) Topper .</a></li>
+           
+        </ul>
+    </li>
+    <li><a href="#"> Cracked almost all the Engineering colleges in INDIA ( except IIT's , IIITH  ) with any branch.</a></li>
+    <li><a href="#">Two scholorships :   
+                                          </a>
+
+    <ul>
+            <li><a href="#">Scholorship for top 10 student by Education minister of state.</a></li>
+            <li><a href="#">Merit scholorship by state Government for 4 year B.TECH .</a></li>
+           
+        </ul>
+     </li>                       
+</ul>
+				
+				</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+
+		<div class="cd-fixed-bg cd-bg-2">
+			<h2> Projects and Ideas</h2>
+		</div> <!-- cd-fixed-bg -->
+	<div id="Projects and Ideas">
+		<div class="cd-scrolling-bg cd-color-3">
+			<div class="cd-container">
+				<p>
+<ul class="rounded-list">
+    <li><a href="https://github.com/Shekharrajak/Donate-A-Windows-phone-Store-App-"><h2><strong><b> Windows Store App for Donation</b></strong> :</h2> <h2><br>Actually I want to make the process of donation money fast. This idea came in my mind when I see poor peoples ,
+
+who injured or having any type of problem in their body (like = paralysis , cancer , sudden accident etc..) or their relatives have these problem.
+The poor guys can't spread their words in large area in short time . So what I want to do is making donation process fast and the INTERNET is the best platform for this . I want to create a Application through which the person can get donation very easily.This app can be created in Windows ,Windows phones ,Mac etc..<br>
+<h2><br><h2> Click for more information </h2></a></li>
+    <li><a href="https://github.com/Shekharrajak/A-windows-Phone-Store-App-Checks-Eye-Problem"><h1>Windows App Kontrast </h1><br> <h2>A app which can say about your eye capability and eye problems.
+
+I want tomake it universal App both in windows phone as well as windows store App by using windows 2013 or above.
+
+Basically in this app there will be some stages to check your eye capability.First level will be simple which will give you some blocks and you have to find lighter block ,like that.
+
+Next stage: This will be colour blindness test ,I want to add here some types of test named : <br>
+1.Ishihara<br> 2.Color Arrangement Test for Color Blindness.<br>
+
+      3. Pediatric Color Vision Test For Three to Six Year Old Pre-School Children. and some others .</h2><br>
+      <h1>Click for more information </h1>
+ </a></li>
+   
+    <li><a href="https://github.com/Shekharrajak/SPR-Euler-Project-">
+    
+    <h2>Euler-Project-</h2>
+    
+    </a></li>
+    <li><a href=""> <h2>Competitive Programming :</h2></a>
+      <ul><li><a href="http://www.spoj.com/users/shekharrajak/"><h2>Sphere Online Judge (SPOJ) </h2></a></li>
+            <li><a href="http://www.hackerearth.com/users/shekharrajak/"><h2>HackerRank</h2></a></li>
+       
+                         
+     </ul>
+     </li>
+            
+</ul>
+				
+				</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+	</div>
+    <div class="cd-fixed-bg cd-bg-2">
+			<h2> Internship & Training Programs </h2>
+		</div> <!-- cd-fixed-bg -->
+      <div id="Internship & Training Programs">
+		<div class="cd-scrolling-bg cd-color-3">
+			<div class="cd-container">
+				<p>  
+        <section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>NIT Surathkal </h2>
+				<p> It was a Training Program on Web Designing and Developing.Here I learnt about HTML5 ,CSS3 ,Javascript and little bit about PHP .After this training  I started working more on frameworks like : jQuery , Bootstrap ,impress.js and learning  Ruby on Rails, Mysql and some other. </p>
+				<a href="img/nitk.jpg" class="cd-read-more"></a>
+				<span class="cd-date">May -June 2014</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		
+
+		
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2></h2>
+				<p></p>
+				<a href="#0" class="cd-read-more"></a>
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+	
+
+		
+
+	</section> <!-- cd-timeline -->
+        
+       
+        	</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+	</div>
+        
+		<div class="cd-fixed-bg cd-bg-3">
+			<h2>Extra Curriculum Activities</h2>
+		</div> <!-- cd-fixed-bg -->
+	<div id="Extra Curriculum Activities">
+		<div class="cd-scrolling-bg cd-color-1">
+			<div class="cd-container">
+				   <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 80%; height: 331px; background: #fff; overflow: hidden; ">
+        
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 29px; width: 600px; height: 300px; border: 1px solid gray; -webkit-filter: blur(0px); background-color: #fff; overflow: hidden;">
+            <div>
+                <div style="margin: 10px; overflow: hidden; color: #000;">I really love Chess.When I come to know about how to work on internet , my very first account in <a href="www.chess.com" >chess.com</a>.<br>
+    <br>
+    My ranking and status can be seen here :<br>
+    <ul>
+    <li><a href="http://www.chess.com/members/view/Shekharr"> Chess.com Profile </a></li></b></li>
+    </ul></div>
+                <div u="thumb">CHESS</div>
+            </div>
+            <div>
+                <div style="margin: 10px; overflow: hidden; color: #000;"> I used to write about my techno news in <a href="buffercode.in">buffercode.in </a>, blogspot.com , Quora and other sites which provide these things.<br><br>
+    
+    Some of the article links are here :</b><br>
+    <ul>
+    
+    <li>- <a href="" > </a></li>
+    <li>-<a href="" > </a></li>
+    
+    </ul></div>
+                <div u="thumb">WRITTING</div>
+            </div>
+            <div>
+                <div style="margin: 10px; overflow: hidden; color: #000;">CRICKET & FOOTBALL.</div>
+                <div u="thumb">CRICKET & FOOTBALL</div>
+            </div>
+            <div>
+                <div style="margin: 10px; overflow: hidden; color: #000;">READING SCIENCE FRICTION& INSPIRATIONAL STORIES.</div>
+                <div u="thumb">READING SCIENCE FRICTION& INSPIRATIONAL STORIES</div>
+            </div>
+            <div>
+                <div style="margin: 10px; overflow: hidden; color: #000;">.</div>
+                <div u="thumb">Other</div>
+            </div>
+        </div>
+
+        <!-- ThumbnailNavigator Skin Begin -->
+        <div u="thumbnavigator" class="jssort12" style="position: absolute; width: 500px; height: 30px; left:0px; top: 0px;">
+            <!-- Thumbnail Item Skin Begin -->
+            <style>
+                /* jssor slider thumbnail navigator skin 12 css */
+                /*
+                .jssort12 .p            (normal)
+                .jssort12 .p:hover      (normal mouseover)
+                .jssort12 .pav          (active)
+                .jssort12 .pav:hover    (active mouseover)
+                .jssort12 .pdn          (mousedown)
+                */
+                .jssort12 .w, .jssort12 .phv .w
+                {
+                	cursor: pointer;
+                	position: absolute;
+                	WIDTH: 99px;
+                	HEIGHT: 28px;
+                	border: 1px solid gray;
+                	top: 0px;
+                	left: -1px;
+                }
+                .jssort12 .pav .w, .jssort12 .pdn .w
+                {
+                	border-bottom: 1px solid #fff;
+                }
+                .jssort12 .c
+                {
+                    color: #000;
+                    font-size:13px;             	
+                }
+                .jssort12 .p .c, .jssort12 .pav:hover .c
+                {
+                	background-color:#eee;
+                }
+                .jssort12 .pav .c, .jssort12 .p:hover .c, .jssort12 .phv .c
+                {
+                	background-color:#fff;
+                }
+            </style>
+            <div u="slides" style="cursor: move; top:0px; left:0px; border-left: 1px solid gray;">
+                <div u="prototype" class="p" style="POSITION: absolute; WIDTH: 100px; HEIGHT: 30px; TOP: 0; LEFT: 0; padding:0px;">
+                    <div class=w><ThumbnailTemplate class="c" style=" WIDTH: 100%; HEIGHT: 100%; position:absolute; TOP: 0; LEFT: 0; line-height:30px; text-align:center;"></ThumbnailTemplate></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- ThumbnailNavigator Skin End -->
+
+        <a style="display: none" href="http://www.jssor.com">image carousel</a>
+    </div>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+	</div>
+		<div class="cd-fixed-bg cd-bg-4">
+			<h2>Feel free to contact me :) </h2>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<div class="grid">
+					<figure class="effect-apollo">
+						<img src="img/18.jpg" alt="img18"/>
+						<figcaption>
+							<h2> <span>Contact me</span></h2>
+							<p></p>
+							<a href="contact/index.html"></a>
+						</figcaption>			
+					</figure>
+			</div>
+
+		</div> <!-- cd-fixed-bg -->
+	</main> <!-- cd-main-content -->
+	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	 <script src="js/imagesloaded.js"></script>
+
+	 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#content").find("[id^='tab']").hide(); // Hide all content
+    $("#tabs li:first").attr("id","current"); // Activate the first tab
+    $("#content #tab1").fadeIn(); // Show first tab's content
+    
+    $('#tabs a').click(function(e) {
+        e.preventDefault();
+        if ($(this).closest("li").attr("id") == "current"){ //detection for current tab
+         return;       
+        }
+        else{             
+          $("#content").find("[id^='tab']").hide(); // Hide all content
+          $("#tabs li").attr("id",""); //Reset id's
+          $(this).parent().attr("id","current"); // Activate this
+          $('#' + $(this).attr('name')).fadeIn(); // Show content for the current tab
+        }
+    });
+});
+</script>
+
+<!--for ECA tap slider -->
+ <!-- use jssor.slider.mini.js (40KB) instead for release -->
+    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 5, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $AutoCenter: 3,                             //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 0,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 0,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 5,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 0,                            //[Optional] The offset position to park thumbnail
+                    $Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $DisableDrag: true                              //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider2.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
+
+                    //keep the slider width no more than 602
+                    sliderWidth = Math.min(sliderWidth, 602);
+
+                    jssor_slider2.$ScaleWidth(sliderWidth);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+    <!-- end eca scritpt -->
+</body>
+</html>
+
